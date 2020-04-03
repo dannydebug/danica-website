@@ -1,0 +1,147 @@
+#homepage {
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 3.5rem;
+}
+
+.welcome-header {
+  height: 100vh;
+  background: rgb(46, 158, 183);
+  background: radial-gradient(
+    at bottom left,
+    rgba(46, 158, 183, 1) 15%,
+    rgba(49, 25, 109, 1) 100%
+  );
+  background-attachment: fixed;
+}
+
+#welcome {
+  text-align: center;
+  margin-bottom: 0;
+  color: white;
+}
+
+.salutation {
+  font-weight: 400;
+  line-height: 1;
+  /* color: white; */
+  font-size: 2.5rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.salutation .highlight {
+  text-shadow: 0px 0px 30px white;
+}
+
+.salutation-lead {
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+}
+
+.btn-primary {
+  background-color: rgba(46, 158, 183, 1);
+  border: none;
+  transition: background-color 400ms ease-in-out;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: rgb(148, 34, 163);
+  border: none;
+  box-shadow: none;
+}
+
+.highlight {
+  color: rgb(148, 34, 163);
+  font-weight: 600;
+}
+.navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+.nav-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  transition: color 400ms ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.cool-bg {
+  background-color: rgba(46, 158, 183, 1);
+}
+
+.section-title {
+  color: rgb(63, 65, 65);
+  font-weight: 600;
+}
+
+.title-underline {
+  background: rgb(63, 65, 65);
+  height: 4px;
+  width: 70px;
+  margin: 0 auto;
+}
+
+.title-underline-light {
+  background: #f8f9fa;
+}
+
+.offscreen-left {
+  transform: translateX(-10vw);
+  opacity: 0;
+}
+
+.offscreen-right {
+  transform: translateX(10vw);
+  opacity: 0;
+}
+
+.tr {
+  transition: transform 0.5s ease-out, opacity 1s;
+}
+
+.danica-img {
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 5px 21px 0px rgba(0, 0, 0, 0.67);
+}
+
+.skills {
+  font-size: 1.8rem;
+  list-style-type: none;
+  color: rgb(68, 70, 70);
+}
+
+.about-txt {
+  font-size: 1.2rem;
+  color: rgb(68, 70, 70);
+}
+
+.skill-checkmark {
+  color: rgba(46, 158, 183, 1);
+}
+
+#projects {
+  background-color: lightgrey;
+}
+
+/* .contact-icons {
+  color: rgba(255,255,255,.5)
+} */
+
+.social-icon {
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 400ms ease-in-out;
+  font-size: 2rem;
+}
+
+.social-icon:hover {
+  color: white;
+}
