@@ -1,9 +1,3 @@
-// CSS
-import "bootstrap/dist/css/bootstrap.css";
-import "./styles.css";
-import "@fortawesome/fontawesome-free/css/all.css";
-
-// JS
 import $ from "jquery";
 import "bootstrap";
 import "waypoints/lib/noframework.waypoints";
