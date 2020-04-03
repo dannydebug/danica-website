@@ -5,7 +5,8 @@
   "main": "test.js",
   "scripts": {
     "serve": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "npm run clean && parcel build src/index.html",
+    "clean": "rm -r dist .cache"
   },
   "author": "chanchi",
   "license": "ISC",
